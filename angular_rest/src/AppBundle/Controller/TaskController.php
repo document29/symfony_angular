@@ -13,6 +13,7 @@ class TaskController extends Controller
 {
     /**
      * @Route("/api/task")
+     * @Route("/api/task/")
      * @Method("GET")
      */
     public function apiGetAllAction()
